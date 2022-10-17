@@ -19,7 +19,7 @@
     "id": "623853b21fb149d2ee7b76c7",
     "index": 2,
     "picture": "https://i.ibb.co/c1mCwM4/smart-home-v2-9.jpg",
-    "name": "Smart Home Fan",
+    "name": "Smart Electronics Fan",
     "price": 78,
     "category": "Home Appliance"
     },
@@ -27,7 +27,7 @@
     "id": "623853b2e91c8de578c9245e",
     "index": 3,
     "picture": "https://i.ibb.co/6nwPbqg/smart-home-v1-3.jpg",
-    "name": "Smart Home Key",
+    "name": "Smart Electronics Key",
     "price": 51,
     "category": "Home Appliance"
     },

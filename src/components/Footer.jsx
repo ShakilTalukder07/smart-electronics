@@ -18,8 +18,8 @@ const Footer = () => {
               </svg>
             </div>
             <span className='self-center text-2xl font-semibold'>
-              Smart Home
-            </span>
+              Smart Electronics
+             </span>
           </Link>
         </div>
         <div className='grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4'>
@@ -41,7 +41,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className='space-y-3'>
-            <h3 className='tracking-wide uppercase text-gray-50'>Smart Home</h3>
+            <h3 className='tracking-wide uppercase text-gray-50'>Smart Electronics</h3>
             <ul className='space-y-1'>
               <li>
                 <Link to='/about'>Privacy</Link>
@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='py-6 text-sm text-center text-gray-400'>
-        © 2022 Smart Home Inc. All rights reserved.
+        © 2022 Smart Electronics Inc. All rights reserved.
       </div>
     </footer>
   )
