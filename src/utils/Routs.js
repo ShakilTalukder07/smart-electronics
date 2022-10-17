@@ -3,15 +3,18 @@ import Root from "../components/Root";
 import ErrorPage from '../components/ErrorPage'
 import Home from '../components/Home';
 import Shop from "../components/Shop";
-import Cart from '../components/Cart'
+import Cart from '../components/Cart';
 import About from "../components/About";
+
+
+export const myFunc = () => fetch ('products.json');
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
         errorElement: <ErrorPage></ErrorPage>,
-        loader: ()=> fetch ('products.json'),
+        loader: myFunc,
         children: [
             {
                 path: '/',
